@@ -20,3 +20,4 @@ production:
   # database: trip_west_api_production
   # username: trip_west_api
   password: <%= ENV['TRIP_WEST_API_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
